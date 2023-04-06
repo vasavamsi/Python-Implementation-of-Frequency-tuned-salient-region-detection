@@ -1,0 +1,22 @@
+Code for Course Project 
+>>>Frequency tuned salient region Detection
+
+>> Instructions to run the code:
+> Open test_script.py
+> Change the input image no. (mentioned in the code) 
+> Save and run the script.
+> All the images (i.e final segmented image and the intermediate images) are saved in the
+results folder.
+
+> To run the algorithm on the image other than given images, copy the images in the dataset
+folder and change the name of the input image in the code.
+
+>> Note:
+> 10 images are provided in the 'dataset' folder.
+> Here the threshold for the fixed threshold segmentation can be varied (mentioned in
+test_script.py)
+> The threshold for the mean shift segmentation can be varied. (mentioned in test_script.py)
+> The k factor for the final segmentation with adaptive thresholding can be varied (mentioned in
+test_script.py)
+> For switching the final binary mask, the values 255 and 0 are to be interchanged (mentioned
+in final_segmentation.py)
